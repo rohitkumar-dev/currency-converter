@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <div class="container">
+        <h2>Currency Converter</h2>
+        <form action="">
+            <div class="amount-imput">
+                <label for="amount">Enter Amount</label>
+                <input type="number" name="amount" value="100">
+            </div>
+            <div class="drop">
+                <div class="from">
+                    <label for="from">From</label>
+                    <div class="from-box">
+                        <img src="https://flagsapi.com/IN/flat/24.png">
+                        <select name="from" id=""></select>
+                    </div>
+                </div>
+                <span class="material-symbols-outlined">sync_alt</span>
+                <div class="to">
+                    <label for="to">To</label>
+                    <div class="to-box">
+                        <img src="https://flagsapi.com/US/flat/24.png">
+                        <select name="to" id=""></select>
+                    </div>
+                </div>
+            </div>
+            <p class="msg">1USD = 8392 INR*</p>
+            <button>Convert</button>
+        </form>
+        <p class="foot">Made with ❤️ By Rohit Kumar</p>
+    </div>
+
+    <script src="codes.js" defer></script>
+    <script src="script.js" defer></script>
+
+</body>
+
+</html>
