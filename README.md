@@ -22,8 +22,13 @@ This is a simple web application that allows users to convert amounts between di
 currency-converter/
 │
 ├── index.html         # Main HTML file
+
 ├── style.css          # CSS file for styling
+
 ├── script.js          # Main JavaScript logic for the application
+
 ├── codes.js           # JavaScript file containing country and currency codes
+
 ├── README.md          # Project documentation (this file)
+
 └── assets/            # Directory for any additional assets (e.g., images, icons)
