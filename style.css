@@ -78,6 +78,12 @@ button{
 label{
     font-size: 14px;
 }
-p{
+form p{
     font-size: 14px;
+}
+.foot{
+    text-align: center;
+    font-size: 8px;
+    font-weight: 300;
+    padding-top: 5px;
 }
