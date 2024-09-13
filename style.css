@@ -15,15 +15,16 @@ body{
 .container{
     margin: 100px;
     background-color: white;
+    box-shadow: 1px 1px 20px 0px grey;
     width: 300px;
     height: 350px;
     border-radius: 15px;
-    
     padding-bottom: 20px;
 }
 .container h2{
     text-align: center;
     padding-top: 20px;
+    text-shadow: 1px 1px 20px grey;;
 }
 form{
     padding-top: 20px;
@@ -42,32 +43,58 @@ form{
     border: 1px solid grey;
     border-radius: 5px;
     padding: 0px 10px;
+    box-shadow: 1px 1px 20px 0px lightgrey;
 }
 .drop{
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 select{
     border: none;
     outline: none;
-    background-color: white;
+    background: transparent;
     border-radius: 5px;
 }
-
-
 .from-box, .to-box{
     padding: 4px 1px;
     border: solid 1px grey;
     border-radius: 5px;
     display: flex;
     flex-direction: row;
+    box-shadow: 1px 1px 20px 0px lightgrey;
+}
+.from-box:hover, .to-box:hover{
+    background-color: #d3d3d379;
+    transition: all 0.3s ease-in-out;
 }
 .from, .to{
-    padding: 0px 25px;
+    padding: 0px 20px;
 
 }
+#swaper{
+    font-size: 20px;
+}
 span{
+    border-radius: 50%;
+    padding: 7px;
+    background-color: #3240bc;
+    color: white;
     margin-top: 20px;
+    cursor: pointer;
+    box-shadow: 1px 1px 20px 0px grey;
+    -webkit-user-select: none; 
+    -moz-user-select: none;  
+    -ms-user-select: none;
+    user-select: none; 
+}
+span:hover{
+    background-color: #3240bcd5;
+    transition: all 0.3s ease-in-out;
+}
+span:active{
+    background-color: black;
+    transition: all 0.2s ease-in-out;
 }
 button{
     width: 235px;
@@ -78,6 +105,15 @@ button{
     color: white;
     font-size: 16px;
     font-weight: 500;
+    box-shadow: 1px 1px 20px 0px grey;
+}
+button:hover{
+    background-color: #3240bcd5;
+    transition: all 0.3s ease-in-out;
+}
+button:active{
+    background-color: black;
+    transition: all 0.2s ease-in-out;
 }
 label{
     font-size: 14px;
@@ -93,12 +129,11 @@ form p{
     font-size: 14px;
     text-align: center;
     overflow: auto;
-    
+    box-shadow: 1px 1px 20px 0px lightgrey;
 }
 .foot{
     text-align: center;
     font-size: 8px;
     font-weight: 300;
-    padding: 15px 0px;
-    
+    padding: 15px 0px; 
 }
